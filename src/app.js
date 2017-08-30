@@ -1,4 +1,5 @@
 import maskTest from './tests/maskTest';
+import maskTestSprite from './tests/maskTestSprite';
 
 const PIXI = require('pixi.js');
 const SCREEN_WIDTH = 640;
@@ -13,7 +14,10 @@ const _init = () => {
   const stage = app.stage;
 
   // run mask test
-  maskTest(stage);
+  // maskTest(stage);
+
+  // run mask test sprite
+  maskTestSprite(stage);
 };
 
 window.onload = _init;

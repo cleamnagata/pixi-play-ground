@@ -1,10 +1,14 @@
 # dist
 dist/*
 !dist/index.html
+!dist/assets/
 
 # IntelliJ IDEA
 .idea
 *.iml
+
+# mac
+.DS_Store
 
 # node.js
 node_modules/
